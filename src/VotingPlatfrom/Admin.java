@@ -10,8 +10,6 @@ import java.util.Random;
 
 public class Admin extends User {
     private Random random = new Random();
-
-
     private int numberOfParty;
     private HashMap<String,Integer> pool;
     private String link;
